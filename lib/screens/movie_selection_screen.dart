@@ -124,8 +124,8 @@ class _MovieSelectionScreenState extends State<MovieSelectionScreen> {
       // show message if no movies are available
       return Scaffold(
         appBar: AppBar(
-          title: const Text('Movie Selection'),
-          backgroundColor: Colors.blue[900],
+          title: const Text('Movie Selection', style: TextStyle(color: Colors.white ),),
+          backgroundColor: const Color.fromARGB(255, 73, 54, 40),
         ),
         body: const Center(child: Text('No movies available!')),
       );
@@ -136,7 +136,7 @@ class _MovieSelectionScreenState extends State<MovieSelectionScreen> {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Movie Selection'),
-        backgroundColor: Colors.blue[900],
+        backgroundColor: const Color.fromARGB(255, 73, 54, 40),
       ),
       body: Center(
         child: Dismissible(

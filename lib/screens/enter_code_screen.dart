@@ -62,7 +62,7 @@ class _EnterCodeScreenState extends State<EnterCodeScreen> {
           'Enter Code',
           style: TextStyle(color: Colors.white),
         ),
-        backgroundColor: Colors.blue[900],
+        backgroundColor: const Color.fromARGB(255, 73, 54, 40),
       ),
       body: Container(
         color: Colors.blue[50],
@@ -76,7 +76,7 @@ class _EnterCodeScreenState extends State<EnterCodeScreen> {
                 TextFormField(
                   controller: _codeController,
                   decoration: const InputDecoration(
-                    labelText: 'Enter 4-Digit Code',
+                    labelText: 'Enter your 4-Digit Code',
                     border: OutlineInputBorder(),
                   ),
                   keyboardType: TextInputType.number,

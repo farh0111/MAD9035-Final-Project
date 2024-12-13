@@ -55,7 +55,7 @@ class _ShareCodeScreenState extends State<ShareCodeScreen> {
           'Share Code',
           style: TextStyle(color: Colors.white),
         ),
-        backgroundColor: Colors.blue[900],
+        backgroundColor:  const Color.fromARGB(255, 73, 54, 40)
       ),
       body: Container(
         color: Colors.blue[50],

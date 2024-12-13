@@ -27,10 +27,10 @@ class WelcomeScreen extends StatelessWidget {
           'Movie Night',
           style: TextStyle(color: Colors.white),
         ),
-        backgroundColor: Colors.blue[900],
+        backgroundColor: const Color.fromARGB(255, 73, 54, 40),
       ),
       body: Container(
-        color: Colors.blue[50],
+        color: const Color.fromARGB(255, 159, 197, 225),
         child: Center(
           child: Padding(
             padding: const EdgeInsets.all(Spacing.md),
@@ -47,7 +47,7 @@ class WelcomeScreen extends StatelessWidget {
                     Navigator.pushNamed(context, '/share-code');
                   },
                   style: ElevatedButton.styleFrom(
-                    foregroundColor: Colors.blue[900],
+                    foregroundColor:  const Color.fromARGB(255, 166, 77, 121)
                   ),
                   child: const Text('Get Code to Share'),
                 ),
